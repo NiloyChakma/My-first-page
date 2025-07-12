@@ -1,0 +1,45 @@
+.open-sans-normal 
+{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.raleway-normal 
+{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Nav Styles */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+nav ul li
+{
+    list-style: none;
+}
+nav li a
+{
+    text-decoration: none;
+}
+.logo
+{
+    font-size: 34px;
+    color: #4E47FF;
+}
+.btn-primary
+{
+    background-color: #4E47FF;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 10px;
+}
